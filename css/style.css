@@ -12,7 +12,8 @@ Estilo PORTAFOLIO INDEX HTML
 
 
 .no-padding{
-	padding:0;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 
@@ -58,7 +59,9 @@ html, body{
 }
 
 .espacioabajo {
-	background-color: #3F3D3D; 
+	background-color: #3F3D3D;
+	padding-top: 35px;
+    top: -60px;
 }
 
 .carousel-caption {
