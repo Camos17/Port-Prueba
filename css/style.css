@@ -1,0 +1,183 @@
+
+/************************************
+Estilo PORTAFOLIO INDEX HTML
+************************************/
+
+
+.img-responsive{
+	width:100%;
+	max-height: 500px;
+	border-style: double;
+}
+
+
+.no-padding{
+	padding:0;
+}
+
+
+html, body{
+	background-color: #222;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color:#FFF;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:active,
+.navbar-inverse .navbar-nav > li > a:focus {
+	color:#F27200;
+	border-bottom:2px solid #F27200;
+}
+
+.navbar-brand {
+	font-family: 'Sansita One', cursive;
+	font-size: 1.75em;
+}
+
+.icon{
+	text-align: center;
+	font-size: 1.75em;
+	padding: 15px 0 15px;
+	margin: 20px 0 20px;
+}
+
+.icon li i{
+	color: #f2f2f2;
+}
+
+.navbar {
+	border-bottom: 2px solid #F27200;
+}
+
+.portafolio-muestra {
+	margin: 30px 0 30px 0;
+}
+
+.espacioabajo {
+	background-color: #3F3D3D; 
+}
+
+.carousel-caption {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 35px;
+	background: rgba(0,0,0,.75);
+}
+
+footer {
+	text-align: right;
+	font-size: 0.8em;
+	color: #F4F2F2;
+	padding: 0;
+	margin: 50px 50px 0 0;
+	clear: both;
+
+}
+
+
+/************************************
+ESTILO GALERIA
+************************************/
+
+
+#bs-example-navbar-collapse-1 a.seleccionado, #bs-example-navbar-collapse-1 a:hover {
+	color:#F27200;
+	border-bottom:2px solid #F27200;
+}
+
+#redes-sociales {
+	margin-top: 20px;
+}
+
+.gal {
+	margin-top: 100px;
+	padding-top: 150px;
+	background-color: #3F3D3D;
+	background-size: 100%;
+	padding: 15px 0 15px 0;
+}
+
+.gal img {
+	margin: 2.5% 1.25% 1.25% 1.25%;
+	float: left;
+}
+
+@media screen  and (min-width: 480px) {
+	
+	 #gal li:nth-child(4n) {
+    clear: left;
+  }
+}
+
+
+/************************************
+ESTILO PAG. CONTACTO
+************************************/
+
+#primary {
+  margin: 150px 0 200px 100px;
+}
+
+#primary p {
+	color: #FFF;
+}
+
+#secondary {
+  margin: 150px 0 200px;
+}
+
+h3 {
+	font-family: 'Sansita One', cursive;
+	font-size: 1.2em;
+	color: #FFF;
+}
+
+.info-contacto {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+  text-align: left;
+
+}
+
+.info-contacto a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  color: #FFF;
+}
+
+.info-contacto li.telefono a  i{
+  color: #FFF;
+  padding-right: 7px;
+}
+
+.info-contacto li.mail a i{
+   color: #FFF;
+  padding-right: 7px;
+}
+
+.info-contacto li.twitter a i{
+  color: #FFF;
+  padding-right: 7px;
+}
+
+ #primary {
+    width: 50%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+  }
